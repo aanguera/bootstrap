@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <title>Inscripcions Hivernal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Inscripcions Hivernal del Bages 2017</h1>
+  
+  <br>
+   <div class="row">
+  		<div class="col-sm-3">
+  			<div class="well well-lg">
+				<p><strong>Introducció de dades</strong></p>
+				<p>Verificació de dades</p>
+   			<p>Compra</p>
+   		</div>
+   	</div>	
+  		<div class="col-sm-7">
+  			<h3>Formulari</h3>
+  			<p>Formulari per a les inscripcions de l'edició 2017 de la Hivernal del Bages<p>
+  			<form action="pas_check.php" method="post">
+  			<fieldset>
+  			 	<div class="form-group">
+  					<label for="usr">Non:</label>
+  					<input type="text" class="form-control" name="nom" id="nom" maxlength="20">
+				</div>
+				<div class="form-group">
+  					<label for="usr">Cognoms:</label>
+  					<input type="text" class="form-control" name="cognoms" id="cognoms" maxlength="30">
+				</div>
+				<div class="form-group">
+    			<label for="email">Adreça de correu electrònic:</label>
+    			<input type="email" class="form-control" name="email" id="email" maxlength="30">
+  				</div>
+  				<div class="form-group">
+  					<label for="usr">Telf. de contacte:</label>
+  					<input type="text" class="form-control" name="telf1" id="telf1" maxlength="9">
+				</div>
+				<div class="form-group">
+  					<label for="usr">Telf. cas d'emergència:</label>
+  					<input type="text" class="form-control" name="telf2" id="telf2" maxlength="9">
+				</div>
+				<label>Estàs federat ?</label>
+				<div class="radio">
+					<label> <input type="radio" name="federacio" value="S">Sí</label>
+				</div>
+				<div class="radio">
+					<label> <input type="radio" name="federacio" value="N">No</label>
+				</div>  		
+  				
+  				<button type="submit" class="btn btn-default">Següent</button>
+  			</fieldset>
+			</form>
+  		</div>
+	</div>
+</div>
+
+</body>
+</html>
